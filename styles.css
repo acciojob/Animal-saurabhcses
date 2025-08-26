@@ -1,12 +1,9 @@
  body {
       font-family: Arial, sans-serif;
       background: black;
-      margin: 0;
-      padding: 40px 0;
-      display: flex;
+      padding: 20px;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
     }
 
     #animal-photos {
@@ -14,16 +11,13 @@
       padding: 30px;
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-      max-width: 900px;
     }
 
     #photo-heading {
-      font-size: 2rem;
-      margin-bottom: 25px;
       text-align: center;
       color: #f0f0f0;
       font-weight: bold;
-      letter-spacing: 2px;
+      
     }
 
     .gallery {
@@ -35,12 +29,5 @@
     .animal-img {
       width: 100%;
       height: 200px;
-      object-fit: cover;
       border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-      transition: transform 0.3s ease;
-    }
-
-    .animal-img:hover {
-      transform: scale(1.05);
     }
